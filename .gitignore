@@ -19,7 +19,6 @@ results/*
 *.txt
 *.html
 
-
 #==============================
 # Customer Other
 #==============================
@@ -32,6 +31,9 @@ results/*
 # SQL
 *.ssmssln
 *.ssmssqlproj
+
+#PyCharm
+.idea/*
 
 
 #==============================
