@@ -1,0 +1,1 @@
+A directory for all intermediary items. For example processed data may live here. Any item in this directory should be produced by code.

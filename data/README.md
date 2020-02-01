@@ -1,0 +1,1 @@
+The data directory should contain only raw data. Data here should never be manipulated.

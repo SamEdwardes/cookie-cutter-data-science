@@ -2,16 +2,20 @@
 
 ## Project description
 
-The purpose of this repo is to provide a default folder structure for data science projects.
+The purpose of this repo is to provide a default folder structure for data science projects. For further reading on best practices and good project organization check out:
+
+- [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/#opinions)
+- [Software Carpentry](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/)
 
 ## File structure
 
-- **assets**: images, colour schemes, or other required files
-- **data**:
-	- **raw**: raw data as downloaded from source
-	- **clean**: store the clean and processed data
-- **documentation**: project documentation
-- **notebooks**: Jupyter notebooks, R markdown etc.
-- **reporting**: final reports including pdf's, markdowns, tableau, etc.
-- **src**: project source code
-- **test**: temp folder for test scripts, data, etc.
+```
+.
+├── README.md
+├── assets (images, colour schemes, or other required files)
+├── data (raw data as downloaded from source)
+├── docs (project documentation, Jupyter notebooks, R markdown etc.)
+├── reporting
+├── results (store the clean and processed data)
+├── src *project source code and scripts)
+```
